@@ -4,10 +4,20 @@ In this repository I learnt kaggle CVD dataset (https://www.kaggle.com/datasets/
 EDA was made and ML-model was trained.  
 
 A detailed description of the task and the course of the solution are presented in Jupiter Notebook.  
-![Uploading Num Cols Distrib.png…]()
-  
-Final metrics on whole dataset using 5-fold-cv:  
-- **accuracy** = 0.8397;  
-- **f1-score** = 0.8585;
-- **roc-auc** = 0.8611;
 
+# EDA   
+  
+## Numerical features distribution
+<img src="Num Cols Distrib.png">  
+  
+## Categorical features distribution
+<img src="Cat Cols Distrib.png">
+  
+# Models
+  
+## Decision Tree
+<img src="Decision Tree.png">
+  
+
+## Final metrics
+<img src="Result Metrics.png">
