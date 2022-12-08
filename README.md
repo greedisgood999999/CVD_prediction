@@ -77,7 +77,7 @@ EDA was made and ML-model was trained.
 ## Final metrics
 
 Способ объединения моделей:  
-`final preds` = $\dfrac{\sum_{i=1}^{n}y_ic_i}{\sum_{i=1}^{n}c_i}$, где  
+`final preds` = $\dfrac{\displaystyle\sum_{i=1}^{n} y_ic_i} {\displaystyle\sum_{i=1}^{n} c_i}$, где  
   
 - $y_i$ - перекодированное предсказание i-ой модели, $y_i$ ~ $[-1; 1]$  
 - $c_i$ - среднее метрик качества i-ой модели.
